@@ -8,5 +8,57 @@
 
 import Foundation
 
-print("Hello, World!")
 
+var a = 20
+var b = 33
+var c = 34
+
+if a > b{
+    print("a is grater than b!")
+}
+else{
+    print("b is grater than a!")
+}
+
+
+if a > b{
+    if a > c
+    {
+        print("a is greater than b and c!")
+    }
+    else{
+        print("c is greater than b and a!")
+        
+    }
+}
+else{
+    
+    if b > c
+    {
+        print("b is greater than a and c!")
+    }
+    else{
+        print("c is greater than b and a!")
+        
+    }
+}
+
+var grad = "A"
+
+switch grad{
+case "A":
+    print("Excellent!")
+    break
+case "B":
+    print("Good")
+    break
+case "C":
+    print("Ok Nice try")
+    break
+case "D":
+    print("Gone bye!")
+    break
+default:
+    print("Out of the World!")
+    break
+}
